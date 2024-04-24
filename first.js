@@ -4,6 +4,10 @@
 // var des = "surat"
 // let city
 // console.table([accnumber,nam,des,city])
+
+const { log } = require("console");
+const { skip } = require("node:test");
+
   
 // const game = "super";
 // // console.log(game.__proto__);
@@ -30,3 +34,54 @@
 // console.log(Array.isArray("ok"));
 // let temp = Array.from("sahaj");
 // console.log(temp);
+
+// let arr = Array.of({nam:"sahaj"});
+// console.log(arr);
+
+
+// const skin = Symbol("ok");
+// let obj  = {
+//     sname:"satani",
+//     age:19,
+//     male:true,
+//     height:5.6,
+//     [skin]:"brown"
+// }
+
+// obj.age = 20;
+// console.log("Before "+obj["age"]);
+// Object.freeze(obj.age);
+// console.log("After "+obj.age);
+
+// console.log(obj[skin]);
+
+
+// obj.gretting = function(){
+//     console.log("Good Afternoon !!");
+// }
+// obj.gretting();
+
+
+let obj1 = {
+    course:"BCA",
+    age:20
+}
+let obj2 = {
+    cname:"MCA",
+    old:21
+}
+// let obj3 = Object.assign({},obj1,obj2);
+// console.log(obj3);
+// console.log(obj1);
+
+// let obj3 = {...obj1,...obj2};
+// console.log(obj3);
+
+// console.log(obj1==obj3);
+
+// console.log(Object.keys(obj1));
+// console.log(Object.values(obj1));
+// console.log(Object.entries(obj1));
+
+// console.log(obj1.hasOwnProperty("age"));
+
