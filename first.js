@@ -85,3 +85,57 @@ let obj2 = {
 
 // console.log(obj1.hasOwnProperty("age"));
 
+// const {cname} = obj2;
+// console.log(cname);
+
+// let {old:age} = obj2;
+// console.log(age);
+
+// const temp = ({cname:nam}) =>{
+//     console.log(nam);
+// }
+// temp({cname} = obj2);
+// temp(cname = "sahaj");
+
+// console.log(temp(90,"ok"));
+// function temp(num1, num2){
+//     // console.log(num1+num2);
+//     return num1+num2;
+// }
+
+// function makeString(nam){
+//     if(nam){
+//         return `My name is ${nam}`;
+//     }
+//     else{
+//         return `My name is ok`;
+//     }
+// }
+// let na = "sahaj";
+// console.log(makeString(na));
+
+
+// Rest parameter must be last of para.
+// function calculateSumMark(num1,...mark){
+//     let sum=0;
+//     for(let i=0; i<mark.length; i++){
+//         sum += mark[i];
+//     }
+//     // console.log(tt);
+//     return sum;
+// }
+// console.log(calculateSumMark(10,20,30,50));
+
+// const profile = {
+//     sname : "satani",
+//     member : 12
+// }
+// function printObject(anyObject){
+//     console.log(`Hello ${anyObject.sname} with ${anyObject.member} Tnk`);
+// }
+// printObject(profile);
+let num1 = "sahaj"
+function allScoping() {
+    console.log(num1);
+}
+allScoping();
